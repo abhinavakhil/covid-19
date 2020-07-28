@@ -1,0 +1,22 @@
+.table {
+  /*  scrollable table */
+  margin-top: 20px;
+  overflow: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+
+.table tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table td {
+  padding: 0.5rem;
+}
+
+/* put every odd table number to this*/
+/*  i.e go to every single odd row and add the code written */
+.table tr:nth-of-type(odd) {
+  background-color: #f3f3f8;
+}
