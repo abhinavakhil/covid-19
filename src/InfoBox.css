@@ -7,7 +7,6 @@
   margin-right: 15px;
 }
 
-/* adding green yellow color to the active infobox */
 .infoBox--selected {
   border-top: 10px solid greenyellow;
 }
@@ -29,8 +28,24 @@
 
 .infoBox__total {
   color: #6c757d;
-  /* !important bcz to overwrite the material ui color */
+
   font-weight: 700 !important;
   font-size: 0.8rem !important;
   margin-bottom: 15px !important;
+}
+
+@media (max-width: 410px) {
+  .infoBox__title {
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+  }
+  .infoBox__cases {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .infoBox__total {
+    font-weight: 700 !important;
+    font-size: 0.5rem !important;
+  }
 }

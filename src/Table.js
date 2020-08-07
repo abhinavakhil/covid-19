@@ -6,7 +6,6 @@ import "./Table.css";
 function Table({ countries }) {
   return (
     <div className="table">
-      {/* // again destructing so that we can use directly insted of country.country or other */}
       {countries.map(({ country, cases }) => (
         <tr>
           <td>{country}</td>

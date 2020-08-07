@@ -7,7 +7,6 @@
   box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
 }
 
-/*  simply add this bcz this .leaflet-container leaflet add by default and we need to add heigth property to it to show map */
 .map .leaflet-container {
   height: 100%;
 }
